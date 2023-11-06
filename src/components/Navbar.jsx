@@ -10,7 +10,7 @@ const Navbar = () => {
           <NavLink
             to={"/"}
             className={`text-sm md:text-[1.2rem] no-underline ${
-              location.pathname === "/" ? "" : "text-black"
+              location.pathname === "/" ? "text-blue-600" : "text-black"
             } `}
           >
             Home
@@ -18,7 +18,7 @@ const Navbar = () => {
           <NavLink
             to={"/createBlog"}
             className={`text-sm md:text-[1.2rem] no-underline ${
-              location.pathname === "/createBlog" ? "" : "text-black"
+              location.pathname === "/createBlog" ? "text-blue-600" : "text-black"
             } `}
           >
             create post

@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { Spinner } from 'react-bootstrap';
+// import { Spinner } from 'react-bootstrap';
+import Spinner from '../components/Spinner';
 import toast from 'react-hot-toast';
 import PostComponent from '../components/PostComponent';
 
