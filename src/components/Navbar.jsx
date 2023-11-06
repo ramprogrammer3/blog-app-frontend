@@ -3,9 +3,8 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const location = useLocation();
-
   return (
-    <div className="border-b">
+    <div className="border-b fixed top-0 left-0 right-0 bg-white">
       <div className="w-11/12 max-w-[1080px] mx-auto flex justify-between items-center py-2 ">
         <div className="flex gap-x-2 md:gap-x-8">
           <NavLink
