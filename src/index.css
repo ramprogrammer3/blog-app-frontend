@@ -4,6 +4,7 @@
 
 body{
     overflow-x: hidden;
+    background-color: #f2f6ff;
 }
 
 ::-webkit-scrollbar {

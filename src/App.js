@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import CreateBlogPage from "./pages/CreateBlogPage";
 import NotFound from "./pages/NotFound";
+import ProfilePage from "./pages/ProfilePage";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/createBlog" element={<CreateBlogPage />} />
+          <Route path="/profile" element = {<ProfilePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
