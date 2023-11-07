@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const ProfilePage = () => {
   const { user } = useSelector((state) => state.user);
-  console.log(user._id)
+
   return (
     <div className="mt-20">
       <div className="flex flex-col gap-y-5">
