@@ -8,6 +8,7 @@ import CreateBlogPage from "./pages/CreateBlogPage";
 import NotFound from "./pages/NotFound";
 import ProfilePage from "./pages/ProfilePage";
 import Private from "./components/Private";
+import UpdateProfile from "./pages/UpdateProfile";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/signup" element={<Signup />} />
           <Route path="/createBlog" element = {<Private> <CreateBlogPage /> </Private>} />
           <Route path="/profile" element = {<Private> <ProfilePage /> </Private>} />
+          <Route path="/updateProfile/:id" element = {<Private> <UpdateProfile /></Private>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

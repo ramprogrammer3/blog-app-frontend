@@ -1,0 +1,28 @@
+all api for blog app
+
+user routes
+https://blog-app-backend-silk.vercel.app/api/v1/user/register 			postType
+https://blog-app-backend-silk.vercel.app/api/v1/user/login   			postType
+https://blog-app-backend-silk.vercel.app/api/v1/user/update/id  			updateType
+https://blog-app-backend-silk.vercel.app/api/v1/user/delete/id			deleteType
+
+
+// post routes
+https://blog-app-backend-silk.vercel.app/api/v1/post/createPost  			postType
+https://blog-app-backend-silk.vercel.app/api/v1/post/getAllPost  			postType
+https://blog-app-backend-silk.vercel.app/api/v1/post/updatePost/id 		updateType
+https://blog-app-backend-silk.vercel.app/api/v1/post/deletePost/id  		deleteType
+
+https://blog-app-backend-silk.vercel.app/api/v1/post?search=                      getType
+
+// like and unlike on comments
+https://blog-app-backend-silk.vercel.app/api/v1/like  				postType
+https://blog-app-backend-silk.vercel.app/api/v1/unlike  				postType
+
+
+https://blog-app-backend-silk.vercel.app/api/v1/createComment  			postType
+https://blog-app-backend-silk.vercel.app/api/v1/deleteComment  			postType
+
+
+// base url 
+https://blog-app-backend-silk.vercel.app/
