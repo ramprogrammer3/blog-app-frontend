@@ -22,4 +22,8 @@ body{
   }
   @keyframes s3 {to{transform: rotate(1turn)}}
 
-
+  .gradient{
+    border-radius: 50%;
+    background: linear-gradient(to right, red, orange);
+    padding: 3px;
+  }
