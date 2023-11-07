@@ -7,6 +7,7 @@ import Signup from "./pages/Signup";
 import CreateBlogPage from "./pages/CreateBlogPage";
 import NotFound from "./pages/NotFound";
 import ProfilePage from "./pages/ProfilePage";
+import Private from "./components/Private";
 
 const App = () => {
   return (
@@ -17,8 +18,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/createBlog" element={<CreateBlogPage />} />
-          <Route path="/profile" element = {<ProfilePage />} />
+          <Route path="/createBlog" element = {<Private> <CreateBlogPage /> </Private>} />
+          <Route path="/profile" element = {<Private> <ProfilePage /> </Private>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

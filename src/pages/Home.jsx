@@ -38,8 +38,8 @@ const Home = () => {
 
 
   if(loading){
-    return <div className='flex w-screen h-screen justify-center items-center '>
-      <Spinner className='mr-56' />
+    return <div>
+      <Spinner />
     </div>
   }
 
